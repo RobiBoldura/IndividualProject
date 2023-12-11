@@ -1,0 +1,145 @@
+.body {
+    font-family: 'Roboto Mono', monospace;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.img-sec {
+    float: right;
+    width: 40%;
+}
+
+.img-sec img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-section .content h3 {
+    margin-top: 20px;
+    color: #5d5d5d;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.content-section .social {
+    margin-top: 10px;
+}
+.assistant-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+.assistant-buttons {
+    text-align: center;
+}
+
+.assistant-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+.assistant-buttons button:hover {
+    background-color: #45a049;
+}
+.content-section .social i {
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.go-home-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.go-home-button:hover {
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
+
+/* Reguli de media queries pentru design responsive */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .content-section {
+        width: 100%;
+    }
+
+    .img-sec {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding-top: 50px;
+    }
+
+    .content-section .title {
+        font-size: 24px;
+    }
+
+    .content-section .content p {
+        font-size: 15px;
+    }
+
+    .go-home-button {
+        top: 20px;
+        left: 20px;
+        padding: 8px;
+        font-size: 14px;
+    }
+}

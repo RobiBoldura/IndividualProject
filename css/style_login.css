@@ -1,0 +1,126 @@
+body {
+    background: radial-gradient(#fff, #ffd6d6);
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo-img {
+    max-width: 200px;
+    max-height: 100px;
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow: hidden;
+  }
+  
+  .login-box {
+    background-color: #ffffff;
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-box h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .login-box form {
+    margin-top: 20px;
+  }
+  
+  .login-box label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666666;
+  }
+  
+  .text-input {
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 100%;
+  }
+  
+  .login-button {
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #008CBA;
+  }
+  
+  .login-box a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #666666;
+    text-decoration: none;
+  }
+  
+  .login-box a:hover {
+    text-decoration: underline;
+  }
+  
+  .logo {
+    margin-left: 19px;
+  }
+  

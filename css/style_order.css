@@ -1,0 +1,40 @@
+body {
+    background: radial-gradient(#fff, #ffd6d6);
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .logo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .navbar .logo img {
+    width: 100px; /* Setează lățimea imaginii la 50 de pixeli sau la dimensiunea dorită */
+    height: auto; /* Păstrează proporțiile imaginii */
+  }
+  a {
+    text-decoration: none;
+    color: #555;
+  }

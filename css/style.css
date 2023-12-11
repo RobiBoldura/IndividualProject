@@ -1,0 +1,156 @@
+.body {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+}
+.navbar img.cart-icon {
+    margin-right: 10px; /* sau orice valoare dorită pentru a mări spațiul între imagine și butonul de logout */
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon .fa-bars {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar.active ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    .navbar.active ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar.active ul li a {
+        color: #555;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon.active .fa-bars {
+        display: none;
+    }
+
+    .menu-icon.active .fa-times {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .navbar ul {
+        display: flex !important;
+        justify-content: flex-end;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 40%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #563434;
+}
+
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header .row {
+    margin-top: 25px;
+}
